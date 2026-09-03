@@ -1,0 +1,6 @@
+{
+  "name": "Professional Personal Portfolio",
+  "description": "A modern, accessible, and responsive personal portfolio website featuring interactive project showcase with lazy loading, skills directory, biography, downloadable resume, contact form, and dark mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
