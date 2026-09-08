@@ -8,6 +8,14 @@
     <meta name="keywords" content="Muhammad Azzam Mustafidh, Portfolio, AI ML Engineer, IoT Builder, ESP32, AgriSmart, Islamic Smart Door, BarFin, SLB Tunas Harapan, Universitas Brawijaya, Next.js, TypeScript" />
     <meta name="author" content="Muhammad Azzam Mustafidh" />
     
+    <!-- Robots & AI Crawler Directives -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    <link rel="alternate" type="text/markdown" href="/llms.txt" title="LLM-friendly version for AI Agents" />
+    
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="profile" />
     <meta property="og:url" content="https://github.com/mustafidh08" />
@@ -30,36 +38,154 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-    <!-- Schema.org JSON-LD Structured Data for SEO -->
+    <!-- Schema.org JSON-LD Structured Data for AI Crawlers & Search Engines -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Muhammad Azzam Mustafidh",
-      "jobTitle": "Aspiring AI/ML Engineer & IoT Builder",
-      "url": "https://github.com/mustafidh08",
-      "sameAs": [
-        "https://github.com/mustafidh08",
-        "https://www.linkedin.com/in/muhammad-azzam-mustafidh/",
-        "https://www.instagram.com/mustapitt/"
-      ],
-      "knowsAbout": [
-        "IoT & Embedded Systems",
-        "ESP32",
-        "Artificial Intelligence",
-        "Multi-Agent Architectures",
-        "Machine Learning",
-        "Smart Agriculture",
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS"
-      ],
-      "description": "First-year Informatics Engineering student at Universitas Brawijaya and IoT builder with hands-on Project Management experience across smart agriculture, embedded access systems, and modern web architectures."
+      "@graph": [
+        {
+          "@type": "ProfilePage",
+          "@id": "https://mustafidh08.github.io/#profilepage",
+          "name": "Muhammad Azzam Mustafidh Portfolio",
+          "url": "https://mustafidh08.github.io/",
+          "mainEntity": {
+            "@id": "https://mustafidh08.github.io/#person"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://mustafidh08.github.io/#person",
+          "name": "Muhammad Azzam Mustafidh",
+          "alternateName": ["Mustafidh", "Mustapit", "James", "Jamus"],
+          "jobTitle": "Aspiring AI/ML Engineer & IoT Builder",
+          "email": "azzammustafidh@gmail.com",
+          "url": "https://mustafidh08.github.io/",
+          "sameAs": [
+            "https://github.com/mustafidh08",
+            "https://www.linkedin.com/in/muhammad-azzam-mustafidh/",
+            "https://www.instagram.com/mustapitt/"
+          ],
+          "alumniOf": [
+            {
+              "@type": "EducationalOrganization",
+              "name": "Universitas Brawijaya (FILKOM)",
+              "department": "Informatics Engineering (Teknik Informatika)"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Sekolah Impian / QBS Bogor"
+            }
+          ],
+          "knowsAbout": [
+            "Internet of Things (IoT)",
+            "ESP32 Microcontrollers",
+            "C/C++ Embedded Firmware",
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Multi-Agent Architectures",
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Smart Agriculture",
+            "OWASP Top 10 Security",
+            "Lighthouse Web Performance"
+          ],
+          "description": "First-year Informatics Engineering student at FILKOM, Universitas Brawijaya (Class of 2030, SMUB Academic Transcript pathway) and IoT builder with hands-on Project Management experience across smart agriculture (AgriSmart), embedded access systems (Islamic Smart Door), and modern web architectures."
+        },
+        {
+          "@type": "ItemList",
+          "name": "Featured Engineering Projects",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "SoftwareSourceCode",
+                "name": "Islamic Smart Door (ISD)",
+                "description": "ESP32-based smart access control system with 4-way authentication (PN532 NFC, Telegram bot, Web PIN, DF2301QG voice commands) and integrated Islamic prayer scheduling via Kemenag API.",
+                "codeRepository": "https://github.com/mustafidh08/ISD-Overview-website",
+                "programmingLanguage": ["C++", "TypeScript", "Next.js"]
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "SoftwareSourceCode",
+                "name": "AgriSmart",
+                "description": "Automated IoT & AI-powered hydroponic management system with dynamic pH/EC dosing, fail-safe protections, and Telegram alerts. Acquired by PT. AlKhwarizmi Kreatif Produktif.",
+                "codeRepository": "https://github.com/mustafidh08/agri-smart",
+                "programmingLanguage": ["C++", "Python", "TypeScript"]
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "SoftwareApplication",
+                "name": "BarFin",
+                "description": "Zero-install browser-based financial assistant referencing OJK Daftar Efek Syariah (DES) halal securities with 0 CLS and 99 Lighthouse performance.",
+                "url": "https://bar-fin-overview.vercel.app/",
+                "applicationCategory": "FinanceApplication"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "WebSite",
+                "name": "SLB Tunas Harapan School Website",
+                "description": "Accessible institutional website with headless Sanity.io CMS, PANDI .sch.id domain verification, and OWASP Top 10:2025 security hardening.",
+                "url": "https://slbtunasharapan.sch.id/"
+              }
+            }
+          ]
+        }
+      ]
     }
     </script>
   </head>
   <body class="bg-[#FAFAFA] text-[#18181B] dark:bg-[#0A0A0B] dark:text-[#E8E8E8] transition-colors duration-200 antialiased selection:bg-[#F27D26] selection:text-white font-sans">
-    <div id="root"></div>
+    <div id="root">
+      <!-- Semantic crawler fallback for AI agents & non-JS scrapers -->
+      <header style="padding: 2rem 1rem; max-width: 800px; margin: 0 auto;">
+        <h1>Muhammad Azzam Mustafidh (Mustafidh)</h1>
+        <p><strong>Aspiring AI/ML Engineer &amp; IoT Builder</strong></p>
+        <p>First-year Informatics Engineering student at FILKOM, Universitas Brawijaya (Class of 2030, SMUB Academic Transcript Pathway). Mindset: <em>Terbentur, terbentur, terbentuk</em>.</p>
+        <p>Email: <a href="mailto:azzammustafidh@gmail.com">azzammustafidh@gmail.com</a> | GitHub: <a href="https://github.com/mustafidh08">github.com/mustafidh08</a> | LinkedIn: <a href="https://www.linkedin.com/in/muhammad-azzam-mustafidh/">Muhammad Azzam Mustafidh</a></p>
+      </header>
+      <main style="max-width: 800px; margin: 0 auto; padding: 1rem;">
+        <section id="ai-context">
+          <h2>AI Crawler Information</h2>
+          <p>For machine-readable structured documentation, please refer to <a href="/llms.txt">/llms.txt</a> and <a href="/sitemap.xml">/sitemap.xml</a>.</p>
+        </section>
+        <section id="projects">
+          <h2>Featured Projects</h2>
+          <article>
+            <h3>Islamic Smart Door (ISD)</h3>
+            <p>ESP32 smart access control system with 4-way authentication (PN532 NFC, Telegram bot, Web PIN, DF2301QG offline voice) and Kemenag prayer time synchronization.</p>
+          </article>
+          <article>
+            <h3>AgriSmart (Tim Al-Jazari)</h3>
+            <p>IoT &amp; AI-powered automated hydroponic monitoring system with dynamic pH/EC dosing and fail-safe safety logic. Acquired by PT. AlKhwarizmi Kreatif Produktif.</p>
+          </article>
+          <article>
+            <h3>BarFin (KeuanganSyariah.id)</h3>
+            <p>Client-side financial planning tool referencing OJK Daftar Efek Syariah (DES) halal standards with 99 Lighthouse performance.</p>
+          </article>
+          <article>
+            <h3>SLB Tunas Harapan School Portal</h3>
+            <p>Accessible institutional portal for special education school with Sanity.io CMS, verified .sch.id domain, and OWASP Top 10:2025 audit.</p>
+          </article>
+        </section>
+      </main>
+    </div>
+    <noscript>
+      <div style="padding: 2rem; text-align: center; font-family: sans-serif;">
+        <h2>Muhammad Azzam Mustafidh Portfolio</h2>
+        <p>This interactive portfolio works best with JavaScript enabled, but all text content and projects are crawlable via <a href="/llms.txt">/llms.txt</a>.</p>
+      </div>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

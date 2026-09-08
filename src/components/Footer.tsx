@@ -128,6 +128,27 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResumeModal }) => {
               </li>
               <li>
                 <a
+                  href="/llms.txt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-[#00FF00] hover:underline transition-colors"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#00FF00] inline-block animate-pulse" />
+                  llms.txt (AI Agents)
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/sitemap.xml"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#F27D26] dark:hover:text-white transition-colors"
+                >
+                  sitemap.xml (SEO Index)
+                </a>
+              </li>
+              <li>
+                <a
                   href={`https://github.com/${PERSONAL_INFO.githubUsername}`}
                   target="_blank"
                   rel="noopener noreferrer"

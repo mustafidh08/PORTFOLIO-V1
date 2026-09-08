@@ -1,0 +1,97 @@
+# Muhammad Azzam Mustafidh — Portfolio & Engineering Knowledge Base
+
+> Aspiring AI/ML Engineer & IoT Builder | First-year Informatics Engineering Student at FILKOM, Universitas Brawijaya (Class of 2030, SMUB Academic Transcript Pathway).
+> Mindset: "Terbentur, terbentur, terbentuk" ("Struck, struck, shaped").
+
+## Overview
+
+- **Name**: Muhammad Azzam Mustafidh
+- **Preferred Name**: Mustafidh (also known as Mustapit, James, Jamus)
+- **Birth**: Samarinda, April 23, 2008
+- **Location**: Malang, East Java, Indonesia (WIB, UTC+07:00)
+- **Email**: azzammustafidh@gmail.com
+- **GitHub**: https://github.com/mustafidh08
+- **LinkedIn**: https://www.linkedin.com/in/muhammad-azzam-mustafidh/
+- **Instagram**: https://www.instagram.com/mustapitt/
+- **Current Status**: First-year Informatics Engineering student, FILKOM, Universitas Brawijaya (SMUB Academic Transcript Pathway, Class of 2030)
+- **High School Education**: Sekolah Impian / QBS Bogor (Class 6, Graduated 2026, Valedictorian Speaker)
+- **Availability**: Open for Freelance, Research Collaborations, and Engineering Projects
+
+---
+
+## Core Focus Areas
+
+1. **AI & Machine Learning**: Multi-agent architectures, language model engineering, mitigation of AI Colonialism (preserving regional Indonesian language data), and distributed systems.
+2. **IoT & Embedded Systems**: ESP32 microcontrollers, C/C++ firmware, NFC (PN532), offline voice recognition modules (DF2301QG), analog sensor probes (pH/EC), and MQTT/Telegram telemetry.
+3. **Food Security & Sustainable Tech (SDG 2: Zero Hunger)**: Automated hydroponic monitoring and dosing systems with fail-safe actuators.
+4. **Modern Web Engineering**: Next.js, React, TypeScript, Tailwind CSS, Sanity.io CMS, 100/100 Google Lighthouse Core Web Vitals, and OWASP Top 10:2025 security compliance.
+
+---
+
+## Featured Engineering Projects
+
+### 1. Islamic Smart Door (ISD)
+- **Summary**: ESP32 smart access control system with 4-way access modalities and integrated Islamic daily utility features.
+- **Hardware & Tech**: ESP32, PN532 NFC, Telegram Bot API, DF2301QG Voice Recognition, Kemenag API, SinricPro, Google Assistant, Next.js.
+- **Key Highlights**:
+  - 4-way access: PN532 NFC card, Telegram remote bot trigger, Web PIN interface, offline speech commands.
+  - Automatic prayer times scheduling via Kemenag API with NTP sync and 20x4 LCD feedback.
+  - SinricPro integration allowing Google Assistant smart home voice control.
+  - Total hardware bill-of-materials kept under Rp 500.000.
+  - 100/100 Google Lighthouse audit across all four categories.
+- **Demo**: https://isd-overview.vercel.app/en
+- **Repository**: https://github.com/mustafidh08/ISD-Overview-website
+
+### 2. AgriSmart (Tim Al-Jazari)
+- **Summary**: IoT & AI-powered hydroponic management system with automated pH/EC dosing and fail-safe trip protections.
+- **Hardware & Tech**: ESP32, Analog pH/EC Probes, Peristaltic Dosing Pumps, MQTT, Telegram API, Next.js, Vercel.
+- **Key Highlights**:
+  - Dynamically configurable target parameters adapting to any hydroponic plant species.
+  - Autonomous chemical balancing with safety trip handlers to prevent over-dosing.
+  - Real-time sensor telemetry delivered to cloud dashboard and Telegram alerts.
+  - Acquired by PT. AlKhwarizmi Kreatif Produktif for corporate research and internship development.
+  - Awarded Certificate of Recognition for Technological Innovation (ID: 001/SERT/KHW/II/2026).
+- **Demo**: https://agri-smart-kappa.vercel.app/
+- **Repository**: https://github.com/mustafidh08/agri-smart
+
+### 3. BarFin (formerly KeuanganSyariah.id)
+- **Summary**: Zero-installation, browser-based financial assistant referencing OJK Daftar Efek Syariah (DES) halal securities.
+- **Tech**: Next.js, TypeScript, Tailwind CSS, OJK DES Dataset, Vercel.
+- **Key Highlights**:
+  - Completely client-side execution ensuring 100% financial privacy on user devices.
+  - Halal stock/investment verification against official OJK standards.
+  - 99/100 Lighthouse Performance, 0.7s LCP, zero Cumulative Layout Shift (CLS).
+- **Demo**: https://bar-fin-overview.vercel.app/
+- **Repository**: https://github.com/mustafidh08/BarFin-Overview
+
+### 4. SLB Tunas Harapan School Website
+- **Summary**: Accessible institutional portal for a special education school with headless CMS and security auditing.
+- **Tech**: Next.js, Sanity.io, TypeScript, Tailwind CSS, Vercel, PANDI DNS (.sch.id), OWASP Top 10:2025.
+- **Key Highlights**:
+  - Official .sch.id domain verification and DNS architecture via PANDI and Jagoan Hosting.
+  - Sanity.io headless CMS integration for school administration announcements.
+  - OWASP Top 10:2025 security assessment and remediation.
+  - 100/100 Lighthouse Performance, Best Practices, and SEO.
+- **Demo**: https://slbtunasharapan.sch.id/
+- **Repository**: https://github.com/mustafidh08/Web-SLB-Tunas-Harapan-Samarinda
+
+---
+
+## Experience & Leadership
+
+- **Project Manager — AgriSmart Corporate Internship** | PT. AlKhwarizmi Kreatif Produktif (April 2026 – May 2026)
+  - Led corporate development phase following company acquisition of the AgriSmart prototype.
+  - Managed sensor calibration firmware, peristaltic pump control, and commercialization decks.
+- **Project Manager — Islamic Smart Door (ISD)** | Sekolah Impian / QBS (January 2026 – June 2026)
+  - Spearheaded hardware architecture, 4 access modules, and exhibition presentation.
+- **Treasurer (Bendahara)** | OSQBS Student Organization (2024 – 2026)
+  - Directed budgeting, financial transparency, and fund allocations across 100+ boarding school students.
+
+---
+
+## Certifications & Honors
+
+- **Award of Recognition — Technological Innovation (AgriSmart)** | PT. AlKhwarizmi Kreatif Produktif (Credential: `001/SERT/KHW/II/2026`)
+- **Deploy Multi-Agent Architectures** | Google Cloud (Credential: `8d06cff3-829f-4861-8f7c-65dea454e7f6`)
+- **Learning the Basics of AI & Python** | Dicoding Indonesia (Credential: `L4PQW6Q87PO1`)
+- **Valedictorian Graduation Speaker** | Sekolah Impian / QBS Bogor (2026)
