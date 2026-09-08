@@ -9,7 +9,7 @@ export interface SocialLink {
   category?: 'code' | 'social' | 'contact';
 }
 
-export type ProjectCategory = 'all' | 'fullstack' | 'frontend' | 'ai' | 'cloud';
+export type ProjectCategory = 'all' | 'iot' | 'fullstack' | 'ai' | 'frontend' | 'cloud';
 
 export interface Project {
   id: string;

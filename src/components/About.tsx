@@ -65,19 +65,19 @@ export const About: React.FC<AboutProps> = ({ onOpenResumeModal }) => {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 dark:text-[#D0D0D0]">
                 <li className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#F27D26] shrink-0" aria-hidden="true" />
-                  <span>Strict Type Safety & Schema Contracts</span>
+                  <span>Fail-Safe Hardware & Sensor Fault Protection</span>
                 </li>
                 <li className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#F27D26] shrink-0" aria-hidden="true" />
-                  <span>WCAG 2.1 AA Accessibility Compliant</span>
+                  <span>100/100 Lighthouse Performance & Zero CLS</span>
                 </li>
                 <li className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#F27D26] shrink-0" aria-hidden="true" />
-                  <span>Automated CI/CD & Test Automation</span>
+                  <span>Food Security & Purposeful Impact (SDG 2)</span>
                 </li>
                 <li className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#F27D26] shrink-0" aria-hidden="true" />
-                  <span>Telemetry, Observability & SLO Tracking</span>
+                  <span>OWASP Top 10:2025 Security Hardening</span>
                 </li>
               </ul>
             </div>

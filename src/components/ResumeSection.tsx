@@ -25,7 +25,7 @@ export const ResumeSection: React.FC<ResumeSectionProps> = ({
 
   const handleQuickDownload = () => {
     // Generate text document resume
-    const content = `ALEX MORGAN - SENIOR FULL-STACK & CLOUD SYSTEMS ENGINEER
+    const content = `${PERSONAL_INFO.name.toUpperCase()} - ${PERSONAL_INFO.title.toUpperCase()}
 Email: ${PERSONAL_INFO.email}
 Location: ${PERSONAL_INFO.location}
 GitHub: https://github.com/${PERSONAL_INFO.githubUsername}
@@ -35,17 +35,17 @@ SUMMARY:
 ${PERSONAL_INFO.shortBio}
 
 CORE CAPABILITIES:
-- Frontend Architecture: TypeScript, React 19, Next.js, Tailwind CSS, WCAG 2.1 AA a11y
-- Backend & Distributed Systems: Node.js, Express, Go, Python FastAPI, WebSockets
-- Databases: PostgreSQL, Redis, Query Optimization, Vector Databases
-- Cloud & DevOps: Docker, AWS, GCP, Kubernetes, CI/CD, Terraform
+- Embedded & IoT Systems: ESP32, Arduino C/C++, NFC/PN532, DF2301QG Voice, pH/EC Sensors, MQTT, SinricPro
+- AI & Systems: Python, Multi-Agent Architectures, Machine Learning Foundations, Prompt Engineering
+- Web & Frontend: Next.js, React, TypeScript, Tailwind CSS, Sanity.io, 100/100 Lighthouse Performance
+- DevOps & Security: Vercel, PANDI DNS (.sch.id), OWASP Top 10:2025 Audit, Git, Media Production
 `;
 
     const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `Alex_Morgan_Resume_${new Date().getFullYear()}.txt`;
+    link.download = `Muhammad_Azzam_Mustafidh_Resume_${new Date().getFullYear()}.txt`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

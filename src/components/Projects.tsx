@@ -21,10 +21,8 @@ export const Projects: React.FC = () => {
 
   const categories: { id: ProjectCategory; label: string }[] = [
     { id: 'all', label: 'All Projects' },
-    { id: 'fullstack', label: 'Full-Stack' },
-    { id: 'frontend', label: 'Frontend & UI' },
-    { id: 'ai', label: 'AI & Data' },
-    { id: 'cloud', label: 'Cloud & Systems' },
+    { id: 'iot', label: 'IoT & Hardware' },
+    { id: 'fullstack', label: 'Web & Systems' },
   ];
 
   const filteredProjects = useMemo(() => {
@@ -65,7 +63,7 @@ export const Projects: React.FC = () => {
               Featured Work & Systems
             </h2>
             <p className="text-sm sm:text-base text-slate-600 dark:text-[#A0A0A0] mt-2">
-              Production architectures, high-concurrency systems, and client platforms engineered with high craft.
+              Hardware architectures, embedded IoT prototypes, and high-performance web platforms engineered with real-world impact.
             </p>
           </div>
 

@@ -5,7 +5,7 @@ import {
   Heart,
   Github,
   Linkedin,
-  Twitter,
+  Instagram,
   Mail,
   ShieldCheck,
 } from 'lucide-react';
@@ -26,8 +26,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResumeModal }) => {
         return <Github className="w-4 h-4" aria-hidden="true" />;
       case 'linkedin':
         return <Linkedin className="w-4 h-4" aria-hidden="true" />;
-      case 'twitter':
-        return <Twitter className="w-4 h-4" aria-hidden="true" />;
+      case 'instagram':
+        return <Instagram className="w-4 h-4" aria-hidden="true" />;
       case 'mail':
         return <Mail className="w-4 h-4" aria-hidden="true" />;
       default:
@@ -47,18 +47,18 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResumeModal }) => {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded bg-[#F27D26] flex items-center justify-center text-white font-mono font-bold text-xs shadow-md">
-                AM
+                MAM
               </div>
               <span className="font-serif italic font-bold text-lg text-slate-900 dark:text-white tracking-tight">
                 {PERSONAL_INFO.name}
               </span>
             </div>
             <p className="text-xs text-slate-600 dark:text-[#808080] max-w-sm leading-relaxed font-sans">
-              Senior Full-Stack & Cloud Systems Engineer specializing in high-concurrency systems, microservices, and accessible interfaces.
+              {PERSONAL_INFO.title} • {PERSONAL_INFO.tagline}
             </p>
             <div className="flex items-center gap-2 text-[11px] text-[#00FF00] font-mono">
               <span className="w-2 h-2 rounded-full bg-[#00FF00] inline-block animate-pulse" />
-              <span>Available for engineering leadership & contract architecture</span>
+              <span>{PERSONAL_INFO.availabilityStatus}</span>
             </div>
           </div>
 

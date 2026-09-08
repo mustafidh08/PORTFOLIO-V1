@@ -80,7 +80,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResumeModal }) => {
               href="#hero"
               onClick={(e) => handleNavClick(e, '#hero')}
               className="group flex items-center gap-3.5 focus:outline-none focus:ring-1 focus:ring-[#F27D26] rounded p-1"
-              aria-label="Alex Morgan - Home"
+              aria-label={`${PERSONAL_INFO.name} - Home`}
             >
               <div className="w-9 h-9 rounded bg-slate-100 dark:bg-[#151516] border border-slate-300 dark:border-[#2A2A2B] flex items-center justify-center text-[#F27D26] group-hover:border-[#F27D26] group-hover:scale-105 transition-all">
                 <Code2 className="w-4 h-4" aria-hidden="true" />
@@ -90,7 +90,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResumeModal }) => {
                   {PERSONAL_INFO.name}
                 </span>
                 <span className="text-[9px] uppercase tracking-[0.2em] text-slate-500 dark:text-[#808080] font-mono -mt-1 hidden sm:inline">
-                  Senior Design & Systems Engineer
+                  {PERSONAL_INFO.title}
                 </span>
               </div>
             </a>

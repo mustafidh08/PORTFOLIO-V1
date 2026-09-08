@@ -1,6 +1,6 @@
 {
-  "name": "Professional Personal Portfolio",
-  "description": "A modern, accessible, and responsive personal portfolio website featuring interactive project showcase with lazy loading, skills directory, biography, downloadable resume, contact form, and dark mode.",
+  "name": "Muhammad Azzam Mustafidh | Portfolio",
+  "description": "Personal portfolio website of Muhammad Azzam Mustafidh — Aspiring AI/ML Engineer, IoT Builder, and Informatics Engineering student at Universitas Brawijaya.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

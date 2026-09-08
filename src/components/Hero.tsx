@@ -4,7 +4,7 @@ import {
   FileDown,
   Github,
   Linkedin,
-  Twitter,
+  Instagram,
   Mail,
   CheckCircle2,
   Terminal,
@@ -25,8 +25,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
         return <Github className="w-5 h-5" aria-hidden="true" />;
       case 'linkedin':
         return <Linkedin className="w-5 h-5" aria-hidden="true" />;
-      case 'twitter':
-        return <Twitter className="w-5 h-5" aria-hidden="true" />;
+      case 'instagram':
+        return <Instagram className="w-5 h-5" aria-hidden="true" />;
       case 'mail':
         return <Mail className="w-5 h-5" aria-hidden="true" />;
       default:
@@ -57,33 +57,33 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
             </div>
 
             {/* Micro Eyebrow */}
-            <div className="text-[10px] uppercase text-[#F27D26] font-bold tracking-widest mb-2">
-              Systems Architecture & Design Engineering
+            <div className="text-[10px] uppercase text-[#F27D26] font-bold tracking-widest mb-2 font-mono">
+              AI/ML Engineering & IoT Systems Builder
             </div>
 
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif italic text-slate-900 dark:text-white tracking-tight leading-[1.15] mb-6">
-              Crafting resilient digital ecosystems with surgical precision.
+              {PERSONAL_INFO.tagline}
             </h1>
 
             {/* Subheadline / Intro Paragraph */}
             <p className="text-sm sm:text-base text-slate-600 dark:text-[#A0A0A0] leading-relaxed max-w-2xl mb-6">
-              Hi, I’m <strong className="font-semibold text-slate-900 dark:text-white">{PERSONAL_INFO.name}</strong>. {PERSONAL_INFO.shortBio}
+              Hi, I’m <strong className="font-semibold text-slate-900 dark:text-white">{PERSONAL_INFO.name}</strong> ({PERSONAL_INFO.preferredName}). {PERSONAL_INFO.shortBio}
             </p>
 
             {/* Tech Stack Chips */}
             <div className="flex flex-wrap gap-2 mb-8">
               <span className="px-3 py-1 bg-slate-100 dark:bg-[#1A1A1B] border border-slate-200 dark:border-[#2A2A2B] rounded-full text-[10px] text-slate-800 dark:text-[#D0D0D0] font-mono">
-                TypeScript / React 19
+                ESP32 & IoT Embedded Firmware
               </span>
               <span className="px-3 py-1 bg-slate-100 dark:bg-[#1A1A1B] border border-slate-200 dark:border-[#2A2A2B] rounded-full text-[10px] text-slate-800 dark:text-[#D0D0D0] font-mono">
-                Node.js & Go
+                Next.js & TypeScript
               </span>
               <span className="px-3 py-1 bg-slate-100 dark:bg-[#1A1A1B] border border-slate-200 dark:border-[#2A2A2B] rounded-full text-[10px] text-slate-800 dark:text-[#D0D0D0] font-mono">
-                Cloud & Distributed Systems
+                Multi-Agent & AI Systems
               </span>
               <span className="px-3 py-1 bg-slate-100 dark:bg-[#1A1A1B] border border-slate-200 dark:border-[#2A2A2B] rounded-full text-[10px] text-slate-800 dark:text-[#D0D0D0] font-mono">
-                PostgreSQL & Redis
+                Smart Agriculture & Fail-Safe Logic
               </span>
             </div>
 
@@ -95,7 +95,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500" aria-hidden="true" />
-                System Online / WCAG 2.1 AA
+                FILKOM Universitas Brawijaya
               </span>
             </div>
 
@@ -161,7 +161,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
                   <span className="w-2.5 h-2.5 rounded-full bg-[#F27D26] inline-block" />
                   <span className="ml-2 text-[11px] font-mono text-slate-500 dark:text-[#808080] flex items-center gap-1">
                     <Terminal className="w-3 h-3 text-[#F27D26]" aria-hidden="true" />
-                    systems-architect.ts
+                    iot-ai-engineer.ts
                   </span>
                 </div>
                 <span className="text-[9px] font-mono px-2 py-0.5 rounded bg-slate-200 dark:bg-[#1A1A1B] text-slate-800 dark:text-[#D0D0D0] border border-slate-300 dark:border-[#2A2A2B] uppercase tracking-wider font-semibold">
@@ -181,26 +181,30 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
                 </div>
                 <div className="pl-4">
                   <span className="text-slate-500 dark:text-[#808080]">focus:</span> [
-                  <span className="text-[#D0D0D0]">'Full-Stack'</span>,{' '}
-                  <span className="text-[#D0D0D0]">'Systems Architecture'</span>,{' '}
-                  <span className="text-[#D0D0D0]">'a11y'</span>],
+                  <span className="text-[#D0D0D0]">'IoT & Embedded'</span>,{' '}
+                  <span className="text-[#D0D0D0]">'AI / ML Systems'</span>,{' '}
+                  <span className="text-[#D0D0D0]">'Next.js & TypeScript'</span>],
+                </div>
+                <div className="pl-4">
+                  <span className="text-slate-500 dark:text-[#808080]">mindset:</span>{' '}
+                  <span className="text-slate-900 dark:text-white">'Terbentur, terbentur, terbentuk'</span>,
                 </div>
                 <div className="pl-4">
                   <span className="text-slate-500 dark:text-[#808080]">principles:</span> &#123;
                 </div>
                 <div className="pl-8 text-slate-600 dark:text-[#A0A0A0]">
-                  cleanArchitecture: <span className="text-[#F27D26]">true</span>,
+                  scalableIoT: <span className="text-[#F27D26]">true</span>,
                 </div>
                 <div className="pl-8 text-slate-600 dark:text-[#A0A0A0]">
-                  zeroLayoutShift: <span className="text-[#F27D26]">true</span>,
+                  failSafeProtection: <span className="text-[#F27D26]">true</span>,
                 </div>
                 <div className="pl-8 text-slate-600 dark:text-[#A0A0A0]">
-                  performanceBudget: <span className="text-white">'&lt;100ms'</span>,
+                  lighthouse100Score: <span className="text-[#F27D26]">true</span>,
                 </div>
                 <div className="pl-4">&#125;,</div>
                 <div className="pl-4">
                   <span className="text-slate-500 dark:text-[#808080]">status:</span>{' '}
-                  <span className="text-[#F27D26] font-semibold">'Ready for Impact'</span>
+                  <span className="text-[#F27D26] font-semibold">'{PERSONAL_INFO.availabilityStatus}'</span>
                 </div>
                 <div>&#125;;</div>
               </div>
@@ -228,7 +232,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
                     {PERSONAL_INFO.codeContributions}
                   </div>
                   <div className="text-[9px] text-[#808080] uppercase font-bold tracking-widest mt-0.5 font-mono">
-                    Commits
+                    Contributions
                   </div>
                 </div>
               </div>

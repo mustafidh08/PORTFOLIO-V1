@@ -114,10 +114,10 @@ ${PERSONAL_INFO.shortBio}
 
 CORE TECHNICAL COMPETENCIES
 ---------------------------
-Frontend: TypeScript, React 19, Next.js, Tailwind CSS, Accessibility (WCAG 2.1 AA)
-Backend: Node.js, Express, Go, Python, REST & GraphQL APIs, Distributed Systems
-Databases: PostgreSQL, Redis, MongoDB, Vector Databases, Query Tuning
-Cloud & DevOps: Docker, AWS, GCP, Kubernetes, CI/CD, Terraform, Prometheus
+Embedded & IoT: ESP32, Arduino C/C++, NFC (PN532), DF2301QG Voice, pH/EC Sensors, MQTT, SinricPro
+AI & Systems: Python, Multi-Agent Architectures, LLM & Prompting, Data Structures & Algorithms
+Web & Frontend: Next.js, React, TypeScript, Tailwind CSS, Sanity.io, 100/100 Lighthouse Performance
+DevOps & Security: Vercel, PANDI DNS (.sch.id), OWASP Top 10:2025 Audit, Git, Media Production
 
 PROFESSIONAL EXPERIENCE
 -----------------------
@@ -147,7 +147,7 @@ ${CERTIFICATIONS_DATA.map((c) => `* ${c.name} - ${c.issuer} (${c.date}) [ID: ${c
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `Alex_Morgan_Resume_${new Date().getFullYear()}.txt`;
+    link.download = `Muhammad_Azzam_Mustafidh_Resume_${new Date().getFullYear()}.txt`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -280,27 +280,27 @@ ${CERTIFICATIONS_DATA.map((c) => `* ${c.name} - ${c.issuer} (${c.date}) [ID: ${c
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-mono">
                 <div>
-                  <strong className="text-slate-900 dark:text-white">Languages & Frameworks:</strong>{' '}
+                  <strong className="text-slate-900 dark:text-white">Embedded & IoT Systems:</strong>{' '}
                   <span className="text-slate-600 dark:text-[#A0A0A0]">
-                    TypeScript, React 19, Next.js, Node.js, Express, Go, Python
+                    ESP32, C/C++, NFC/PN532, DF2301QG Voice, pH/EC Sensors, MQTT, SinricPro
                   </span>
                 </div>
                 <div>
-                  <strong className="text-slate-900 dark:text-white">Architecture & DevOps:</strong>{' '}
+                  <strong className="text-slate-900 dark:text-white">AI & Systems:</strong>{' '}
                   <span className="text-slate-600 dark:text-[#A0A0A0]">
-                    Docker, AWS, GCP, Kubernetes, CI/CD, Microservices, WebSockets
+                    Python, Multi-Agent Systems, Machine Learning Foundations, Prompting
                   </span>
                 </div>
                 <div>
-                  <strong className="text-slate-900 dark:text-white">Data & Storage:</strong>{' '}
+                  <strong className="text-slate-900 dark:text-white">Web & Full-Stack:</strong>{' '}
                   <span className="text-slate-600 dark:text-[#A0A0A0]">
-                    PostgreSQL, Redis, Vector Embeddings, SQL Query Tuning
+                    Next.js, TypeScript, Tailwind CSS, Sanity.io, 100/100 Lighthouse
                   </span>
                 </div>
                 <div>
-                  <strong className="text-slate-900 dark:text-white">Standards & Quality:</strong>{' '}
+                  <strong className="text-slate-900 dark:text-white">DevOps & Security:</strong>{' '}
                   <span className="text-slate-600 dark:text-[#A0A0A0]">
-                    WCAG 2.1 AA a11y, Vitest, Playwright, Zero-CLS Optimization
+                    Vercel, PANDI DNS (.sch.id), OWASP Top 10:2025 Audit, Git, Media Production
                   </span>
                 </div>
               </div>
